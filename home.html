@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Build your PC </title>
+    <style>
+      body {
+        background-color: #EAEFF2;
+        padding: 0;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      nav ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+      }
+      nav {
+        background-color: #FAFAFA;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+      }
+
+      nav ul li {
+        margin: 0rem 3rem;
+        list-style-type: none;
+      }
+
+      #search {
+        width: 15rem;
+      }
+      #right-align-max {
+        flex-grow: 1;
+        width: auto;
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      #background {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      main {
+        display: flex;
+        max-width: 100vw;
+        width: 80rem;
+        margin: auto;
+        flex-direction: column;
+      }
+      main #left-aligned {
+        margin-left: 4rem;
+        width: 40rem;
+      }
+      main #right-aligned {
+        margin-left: auto;
+        margin-right: 4rem;
+        width: 40rem;
+        text-align: right;
+      }
+      footer {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      #footer-content {
+        height: 5rem;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li> <a href="/create"> Create </a> </li>
+        <li> <a href="/create"> Explore </a> </li>
+      </ul>
+      <div id="right-align-max">
+        <input id="search" type="search"/>
+      </div>
+    </nav>
+    <div id="background">
+     <h1> Build Your PC! </h1>
+    </div>
+    <main>
+      <p id="left-aligned">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare dapibus odio, vel eleifend magna ultrices vitae. Aliquam malesuada pulvinar leo et feugiat. Etiam purus lacus, aliquet ac hendrerit nec, efficitur et sapien. Sed pharetra tortor sem, sit amet faucibus nunc efficitur vel. Aenean sodales, nisi non congue molestie, odio nunc sagittis mi, a iaculis metus ligula sit amet eros. Etiam in ipsum lorem. Proin sit amet tincidunt arcu. Sed euismod elit sit amet purus dapibus, semper vulputate est dignissim. Donec nec malesuada massa. Sed et neque vitae erat condimentum vestibulum sed ac mi. Mauris maximus hendrerit odio, in iaculis justo sagittis quis. Nam consectetur ac purus in feugiat. 
+      </p>
+      <p id="right-aligned">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare dapibus odio, vel eleifend magna ultrices vitae. Aliquam malesuada pulvinar leo et feugiat. Etiam purus lacus, aliquet ac hendrerit nec, efficitur et sapien. Sed pharetra tortor sem, sit amet faucibus nunc efficitur vel. Aenean sodales, nisi non congue molestie, odio nunc sagittis mi, a iaculis metus ligula sit amet eros. Etiam in ipsum lorem. Proin sit amet tincidunt arcu. Sed euismod elit sit amet purus dapibus, semper vulputate est dignissim. Donec nec malesuada massa. Sed et neque vitae erat condimentum vestibulum sed ac mi. Mauris maximus hendrerit odio, in iaculis justo sagittis quis. Nam consectetur ac purus in feugiat.
+      </p>
+    </main>
+    <footer>
+      <div id="footer-content">
+        © Build Your PC co.
+      </div>
+    </footer>
+  </body>
+</html>
